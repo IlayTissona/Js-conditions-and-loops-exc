@@ -1,6 +1,9 @@
 let stars = "";
 
 for (let i = 0; i < 5; i++) {
-	stars += "* ";
-	console.log(stars);
+	for (let j = 0; j <= i; j++) {
+		stars += "* ";
+	}
+	stars += "\n";
 }
+console.log(stars);
